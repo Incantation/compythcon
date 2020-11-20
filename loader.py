@@ -74,6 +74,7 @@ load_pilotmiscgear = """INSERT INTO MiscGear(name,ammo,action,description,)
 ("Smart Scope","A powerful electronic scope that provides highresolution magnification up to two miles, and automatically adjusts its reticle for wind, gravity, and pressure. Smart scopes can project their field of vision and all data to the HUD of any networked user. They can also pair with other thermal, optical, or simulated-vision devices to further enhance targeting."),
 ("",""),
 """
+
 # mech gear
 create_weapontable = """CREATE TABLE IF NOT EXISTS Weapons(
                         description text,
